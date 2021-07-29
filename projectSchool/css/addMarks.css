@@ -1,0 +1,13 @@
+.form-group{
+		margin-left:100px;
+
+
+}
+img{
+	margin-left:100px;
+	margin-top:20px;
+	box-shadow: 5px 10px #888888;
+	width:400px;
+	height:300px;
+	border-radius:5px;
+}

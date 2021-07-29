@@ -1,0 +1,115 @@
+.panel-body{
+			width:400px;
+			height:500px;
+			background-color:#f4f5f7;
+			margin-top:50px;
+			
+			 border: 1px solid;
+			padding: 10px;
+			box-shadow: 5px 10px #888888;
+			
+			}
+.img1{
+	width:400px;
+	height:500px;
+	margin-top:50px;
+	box-shadow: 5px 5px 5px 10px #888888;
+	margin-left:150px;
+	display:block;
+}
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  text-transform:uppercase;
+  font-size:50px;
+  font-weight:bold;
+  font-family: 'PT Serif', serif;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .img{
+	  width:70%;
+	  border-radius:20%;
+	  padding-left:100px;
+  }
+  .error{
+	  color:red;
+  }
+  .form-signin{
+	  max-width:380px;
+	  padding:15px 35px 45px;
+	  margin: 0 auto;
+	  border:1px solid rgba(0,0,0,0,1);
+  }
+  .form-signin-heading{
+			color:black;
+			margin-bottom:30px;
+			
+  }
+ 
+ .form-control{
+			position:relative;
+			font-size:16px;
+			height:auto;
+			padding:10px;
+			
+			
+			@include box-sizzing(border-box);
+			&:focus{
+				z-index:2;
+			}
+ .page{
+	 width:100%;
+	 height:auto;
+ }
+ .label1{
+	 color:black;
+	 font-size:20px;
+ }
+ input[type="name"]{
+	 margin-bottom:-1px;
+	 border-bottom-left-radius:0;
+	 border-bottom-right-radius:0;
+	 
+ }
+ input[type="password"]{
+	 margin-bottom:2px;
+	 border-bottom-left-radius:0;
+	 border-bottom-right-radius:0;
+	
+ }
+ 
+  button{
+	 
+	  width:300px;
+	  
+	  
+  }
+ button:hover{
+	background-color:white; 
+ }
+ a:hover{
+	 background-color:blue;
+ }

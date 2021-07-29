@@ -1,0 +1,57 @@
+.panel-body{
+			width:95%;
+			height:auto;
+			background-color:#f9fafc;
+			margin-top:20px;
+			margin-left:30px;
+			
+			padding: 20px;
+			box-shadow: 5px 5px 10px #888888;
+			
+			}
+.gallery-front .gallery-image {
+    position: relative;
+    max-width: 263px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ .gallery-image{
+    max-width: 171px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.gallery-image .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+}
+.gallery-image:hover .overlay {
+    opacity: 1;
+}
+.gallery-image:hover p {
+    bottom: 50px;
+}
+
+.gallery-image img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay p {
+    bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    left: 25%;
+    letter-spacing: 2px;
+    position: absolute;
+    text-transform: uppercase;
+    transition: bottom 0.9s ease 0s;
+	color:white;
+}

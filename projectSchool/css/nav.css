@@ -1,0 +1,96 @@
+.nav{
+	 position: relative; 
+  z-index: 100;
+
+}
+
+.nav ul {
+list-style: none;
+background-color:#D8D583;
+text-align: center;
+padding: 0;
+margin: 0;
+width:100%;
+font-family: 'Cardo', serif;
+}
+
+.nav li {
+font-family: 'Cardo', serif;
+color: black;
+font-size: 1.2em;
+font-weight:bold;
+line-height: 40px;
+text-align: left;
+}
+
+.nav a {
+text-decoration: none;
+color: black;
+display: block;
+padding-left: 15px;
+border-bottom: 1px solid #888;
+transition: .3s background-color;
+}
+
+.nav a:hover {
+background-color: #005f5f;
+text-decoration:none;
+color:white;
+text-transform:uppercase;
+}
+
+.nav a.active {
+background-color: #aaa;
+color: black;
+cursor: default;
+}
+
+/* Sub Menus */
+.nav li li {
+font-size: .8em;
+}
+
+/*******************************************
+Style menu for larger screens
+
+Using 650px (130px each * 5 items), but ems
+or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+.nav li {
+width: 130px;
+border-bottom: none;
+height: 50px;
+line-height: 50px;
+font-size: 1.4em;
+display: inline-block;
+margin-right: -4px;
+}
+
+.nav a {
+border-bottom: none;
+}
+
+.nav > ul > li {
+text-align: center;
+}
+
+.nav > ul > li > a {
+padding-left: 0;
+}
+
+/* Sub Menus */
+.nav li ul {
+position: absolute;
+display: none;
+width: inherit;
+}
+
+.nav li:hover ul {
+display: block;
+}
+
+.nav li ul li {
+display: block;
+}

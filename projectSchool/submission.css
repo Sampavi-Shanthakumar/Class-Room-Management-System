@@ -1,0 +1,14 @@
+.panel-body{
+box-sizing:border-box;
+background-color:#f4f5f7;
+box-shadow:5px 10px #888888;
+border: 1px solid;
+padding: 10px;
+border-radius:5px;
+margin-top:50px;
+height:350px;
+}
+.btn-success{
+	
+	border-radius:5px;
+}

@@ -1,0 +1,17 @@
+.panel-body{
+			width:95%;
+			height:auto;
+			background-color:#f9fafc;
+			margin-top:20px;
+			margin-left:20px;
+			
+			padding: 20px;
+			box-shadow: 5px 5px 10px #888888;
+			
+			}
+img{
+	width:95%;
+	height:300px;
+	margin-left:20px;
+	margin-top:20px;
+}
